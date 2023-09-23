@@ -4,9 +4,6 @@ import streamlit as st
 from PIL import Image
 from torchvision import transforms
 from torch.autograd import Variable
-import io
-import plotly.express as px
-from IPython.display import display
 import numpy as np
 
 image_path = ''
